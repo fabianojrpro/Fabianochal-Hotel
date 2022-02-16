@@ -1,0 +1,304 @@
+/* zerando formatação*/
+* {
+margin: 0;
+padding: 0;
+}
+/*zerando formatação fim*/
+
+/* começo formatação do body*/
+body {
+font-family: "Helvetica", "Trebuchet MS", sans-serif;
+background: #fff url(imagens/bg.png);
+margin: 15px;
+}
+/* fim formatação do body*/
+
+/* começo formatação container*/
+#container {
+background: #ede9cc url(imagens/bg-container.png) top center repeat-y;
+margin: 0 auto;
+min-width: 740px;
+max-width: 1180px;
+}
+
+#container2 {
+background: #f8f8f8;
+margin: 0 auto;
+min-width: 740px;
+max-width: 1180px;
+}
+/* fim formatação container*/
+
+/*começo do topo*/
+#topo {
+position: relative;
+background: #dbcd87;
+height: 15.4em;
+min-height: 250px;
+}
+/*fim do topo*/
+
+/* começo area do logo*/
+#area-logo{
+position: absolute;
+background: url(imagens/topo-imagem-principal.png) no-repeat;
+width: 100%;
+height: 250px;
+top: 0;
+left: 0;
+z-index: 1;
+}
+
+.logo a{
+position: absolute;
+top: 15px;
+left: 15;
+z-index: 3;
+background: url(imagens/logo.png) no-repeat;
+width: 151px;
+height: 66px;
+text-indent: -9000px;
+}
+/* fim area do logo*/
+
+/* começo area menu*/
+#area-menu{
+position: absolute;
+background: url(imagens/topo-imagem-lateral.png) no-repeat;
+width: 450px;
+height: 250px;
+top: 0;
+right: 0;
+z-index: 2;
+}
+/* fim area menu*/
+
+/* começo conteudo menu*/
+#conteudo-menu{
+margin-left: 90px;
+margin-right: 15px;
+padding-top: 25px;
+}
+
+#menu-locais span a {
+border-bottom: 1px solid #b5ab56;
+border-top: 1px solid #b5ab56;
+padding-top: 7px;
+padding-bottom: 7px;
+font-size: 0.7em;
+color: #8b8448;
+text-decoration: none;
+}
+
+#menu-locais span a:hover{
+background:#fdf6be !important;
+}
+
+#menu-locais .locais{
+float: left;
+}
+
+a{
+text-decoration: none;
+}
+
+a.reserva {
+color: black !important;
+text-transform: uppercase; 
+padding: 3.5px 3.5px;
+margin-left: 20px;
+line-height: 0.9em;
+text-decoration: underline!important;
+}
+/* fim conteudo menu*/
+
+/* inicio barra de navegação vertical*/
+#menu{
+margin-top: 40px;
+}
+
+.depoimento{
+width: 226px;
+height: 162px;
+float: right;
+}
+
+ul#navegacao{
+float: left;
+}
+
+ul#navegacao a{
+text-transform: uppercase;
+font-size: 0.8em;
+padding: 5px;
+line-height: 30px;
+color: #6e672c;
+}
+
+ul#navegacao a:hover{
+background: #fdf6be;
+}
+
+ul{
+list-style: none;
+}
+/* fim barra de navegação vertical*/
+
+/* começo area de conteudos*/
+
+#area-principal{
+
+float: left;
+width: 50%;
+background: url(imagens/bg-area-principal.png) top left repeat-x;
+padding: 15px 0px;
+}
+
+#area-lateral{
+
+float: right;
+width: 50%;
+background: url(imagens/bg-area-lateral.png) top left repeat-x;
+padding: 20px 0px;
+}
+
+.conteudo{
+margin: 0 auto;
+width: 90%;
+}
+/* fim area de conteudos*/
+
+/* formatação dos textos*/
+h2{
+color: #7d7640;
+font-size: 1.1em;
+padding: 5px 0px;
+}
+
+p{
+font-size: 1em;
+margin-bottom: 10px;
+color: #17202A;
+}
+/* fim formatação dos textos*/
+
+/*formatações da area lateral*/
+#beneficios li{
+padding: 8px;
+border-bottom: 1px solid #f3efcb;
+height: 8em;
+}
+#beneficios li a img{
+float: left;
+margin-right: 8px;
+}
+#beneficios li a p{
+font-size: 0.8em;
+color: black;
+}
+#beneficios li a h3{
+font-size: 1.1em;
+color: #615b2d;
+padding: 5px 0;
+background: url(imagens/ornamento.png) no-repeat center right;
+}
+
+#beneficios li:hover{
+background: #f6f3d6;
+cursor: pointer;
+}
+/* fim formatações da area lateral*/
+
+
+/* começo do rodape*/
+#rodape{
+clear: both;
+padding: 30px;
+background: #fff url(imagens/bg-rodape.png) repeat-x top;
+color: #7d7640;
+}
+/* fim do rodape*/
+
+
+
+/* ESTILO DO FORMULARIO DE RESERVA*/
+
+fieldset{
+padding:  2em;
+margin: 2em 0;
+border: 1px solid #ccc;
+background: #f8f8f8 
+}
+
+legend{
+font-weight:  bold;
+}
+
+label{
+cursor: pointer;
+display: block;
+}
+
+input {
+width: 25em;
+}
+
+textarea{
+width: 20em;
+height: 10em;
+}
+
+input.radio, input.checkbox, input.submit{
+width: auto;
+}
+.radio{
+margin-right: 1em;
+}
+
+#formulario-reserva{
+background: #f8f8f8 url(imagens/bg-rodape.png) repeat-x top !important;
+}
+
+#finalizar{
+cursor: pointer;
+color: black;
+background: #ede9cc;
+padding: 8px;
+text-decoration: underline;
+}
+
+/* FIM ESTILO DO FORMULARIO DE RESERVA*/
+
+/* formatação historia*/
+#container3{
+background: #ede9cc;
+margin: 0 auto;
+min-width: 740px;
+max-width: 1180px;
+}
+#area-principal2{
+float: left;
+padding: 15px 0px;
+}
+
+.img2{
+border: 2px solid #D4AC0D;
+margin-bottom: 10px;
+margin-left: 250px;
+}
+/* fim formatação historia*/
+
+/* formatação contato*/
+.img-contato{
+border: 2px solid #D4AC0D;
+margin-left: 230px;
+}
+.text-chale{
+margin-left: 430px;
+}
+.text-paragrafo1{
+margin-left: 410px !important;
+cursor: pointer;
+color: black;
+}
+/* formatação contato*/
